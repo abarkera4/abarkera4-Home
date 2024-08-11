@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="title">My Landing Page</h1>
+        <nav class="navbar">
+          <div class="navbar-menu">
+            <a href="#articles" class="navbar-item">Articles</a>
+            <a href="#blog" class="navbar-item">Blog</a>
+            <!-- Add more links as needed -->
+          </div>
+        </nav>
+        <button id="theme-toggle" class="toggle-theme">Light Mode</button>
+      </header>
+
+      <section class="hero is-dark">
+        <div class="hero-body">
+          <h2 class="hero-title">Welcome to My Projects & Blog</h2>
+          <p>
+            Explore my journey in software development and dive into my personal projects. Stay tuned for articles, tutorials, and thoughts on creating
+            impactful digital experiences.
+          </p>
+        </div>
+      </section>
+
+      <section id="articles" class="section">
+        <h2 class="title">Articles</h2>
+        <div class="columns is-multiline">
+          <!-- Example Article -->
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-4">Project Title</p>
+                <p>A brief description of the project or article goes here. Click to read more.</p>
+              </div>
+            </div>
+          </div>
+          <!-- More articles can be added in the same structure -->
+        </div>
+      </section>
+
+      <section id="blog" class="section">
+        <h2 class="title">Blog</h2>
+        <div class="columns is-multiline">
+          <!-- Example Blog Post -->
+          <div class="column is-half">
+            <div class="card">
+              <div class="card-content">
+                <p class="title is-4">Blog Post Title</p>
+                <p>A brief excerpt of the blog post goes here. Click to read more.</p>
+              </div>
+            </div>
+          </div>
+          <!-- More blog posts can be added in the same structure -->
+        </div>
+      </section>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
